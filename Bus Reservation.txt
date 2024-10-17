@@ -5,8 +5,6 @@ class Bus
     public:
       int bus_no,arrival_time,departure_time,no_of_seats;
       string from,to;
-      
-    public:
      void install()
      {
        
@@ -35,11 +33,7 @@ class Bus
          cout<<"Arrival time:"<<arrival_time<<endl;
          cout<<"Available seats:"<<no_of_seats<<endl;
          
-     }
-    
-         
-        
-     
+     }     
 };
 
 int main()
@@ -97,7 +91,6 @@ int main()
          cout<<"To:"<<b[i].to<<endl;
          cout<<"Departure time:"<<b[i].departure_time<<endl;
          cout<<"Arrival time:"<<b[i].arrival_time<<endl;
- 
          }
         }
     }
